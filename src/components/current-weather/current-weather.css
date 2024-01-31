@@ -1,0 +1,83 @@
+/* current-weather.css */
+
+.weather {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.city {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.weather-description {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+.weather-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.bottom {
+  margin-top: 15px;
+}
+
+.temperature {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.details {
+  margin-top: 10px;
+}
+
+.parameter-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.parameter-label {
+  font-size: 14px;
+  color: #333;
+}
+
+.parameter-value {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Toggle button styles */
+button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
